@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		C313B6FF25C85FC000C99227 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C313B6FE25C85FC000C99227 /* AppDelegate.swift */; };
 		C313B70125C85FC000C99227 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C313B70025C85FC000C99227 /* SceneDelegate.swift */; };
-		C313B70325C85FC000C99227 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C313B70225C85FC000C99227 /* ViewController.swift */; };
 		C313B70625C85FC000C99227 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C313B70425C85FC000C99227 /* Main.storyboard */; };
-		C313B70925C85FC000C99227 /* A2_FA_IOS_sukhvir_c0785858.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C313B70725C85FC000C99227 /* A2_FA_IOS_sukhvir_c0785858.xcdatamodeld */; };
 		C313B70B25C85FC200C99227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C313B70A25C85FC200C99227 /* Assets.xcassets */; };
 		C313B70E25C85FC200C99227 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C313B70C25C85FC200C99227 /* LaunchScreen.storyboard */; };
+		C313B71725C8639100C99227 /* Screen1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C313B71625C8639100C99227 /* Screen1.swift */; };
+		C313B71B25C8640600C99227 /* A2_FA_IOS_sukhvir_c0785858.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C313B71925C8640600C99227 /* A2_FA_IOS_sukhvir_c0785858.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C313B6FB25C85FC000C99227 /* A2_FA_IOS_sukhvir_c0785858.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A2_FA_IOS_sukhvir_c0785858.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C313B6FE25C85FC000C99227 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C313B70025C85FC000C99227 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C313B70225C85FC000C99227 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C313B70525C85FC000C99227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C313B70825C85FC000C99227 /* A2_FA_IOS_sukhvir_c0785858.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = A2_FA_IOS_sukhvir_c0785858.xcdatamodel; sourceTree = "<group>"; };
 		C313B70A25C85FC200C99227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C313B70D25C85FC200C99227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C313B70F25C85FC200C99227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C313B71625C8639100C99227 /* Screen1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen1.swift; sourceTree = "<group>"; };
+		C313B71A25C8640600C99227 /* A2_FA_ios_Baljeet_782220.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = A2_FA_ios_Baljeet_782220.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +60,12 @@
 			children = (
 				C313B6FE25C85FC000C99227 /* AppDelegate.swift */,
 				C313B70025C85FC000C99227 /* SceneDelegate.swift */,
-				C313B70225C85FC000C99227 /* ViewController.swift */,
+				C313B71625C8639100C99227 /* Screen1.swift */,
 				C313B70425C85FC000C99227 /* Main.storyboard */,
 				C313B70A25C85FC200C99227 /* Assets.xcassets */,
+				C313B71925C8640600C99227 /* A2_FA_IOS_sukhvir_c0785858.xcdatamodeld */,
 				C313B70C25C85FC200C99227 /* LaunchScreen.storyboard */,
 				C313B70F25C85FC200C99227 /* Info.plist */,
-				C313B70725C85FC000C99227 /* A2_FA_IOS_sukhvir_c0785858.xcdatamodeld */,
 			);
 			path = A2_FA_IOS_sukhvir_c0785858;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C313B70925C85FC000C99227 /* A2_FA_IOS_sukhvir_c0785858.xcdatamodeld in Sources */,
-				C313B70325C85FC000C99227 /* ViewController.swift in Sources */,
 				C313B6FF25C85FC000C99227 /* AppDelegate.swift in Sources */,
 				C313B70125C85FC000C99227 /* SceneDelegate.swift in Sources */,
+				C313B71B25C8640600C99227 /* A2_FA_IOS_sukhvir_c0785858.xcdatamodeld in Sources */,
+				C313B71725C8639100C99227 /* Screen1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,12 +345,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		C313B70725C85FC000C99227 /* A2_FA_IOS_sukhvir_c0785858.xcdatamodeld */ = {
+		C313B71925C8640600C99227 /* A2_FA_IOS_sukhvir_c0785858.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				C313B70825C85FC000C99227 /* A2_FA_IOS_sukhvir_c0785858.xcdatamodel */,
+				C313B71A25C8640600C99227 /* A2_FA_ios_Baljeet_782220.xcdatamodel */,
 			);
-			currentVersion = C313B70825C85FC000C99227 /* A2_FA_IOS_sukhvir_c0785858.xcdatamodel */;
+			currentVersion = C313B71A25C8640600C99227 /* A2_FA_ios_Baljeet_782220.xcdatamodel */;
 			path = A2_FA_IOS_sukhvir_c0785858.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
